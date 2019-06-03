@@ -1,0 +1,167 @@
+.grid-container-x{
+  display: grid;
+  /* grid-template-columns: 37mm 34mm 20mm 6mm 19mm 10mm 16mm 12mm 9mm 18mm 31mm 21mm 15mm 17mm 8mm; */
+
+  grid-template-columns: 13.6% 12.5% 7.3% 2.2% 7% 3.7% 5.9% 4.4% 3.3% 6.6% 11.3% 7.7% 5.5% 6.2% 2.9%;
+}
+
+
+.grid-item{
+  border: 0.1px solid rgb(0,0,0,0.1);
+}
+
+.grid-item:nth-child(2n){
+  background-color: white;
+  animation: color-me-in 3s;
+}
+
+.grid-item:nth-child(3n){
+  background-color: white;
+  animation: color-me-in 5s;
+}
+
+.grid-item:nth-child(4n){
+  background-color: white;
+  animation: color-me-in 7s;
+}
+
+.grid-item:nth-child(5n){
+  background-color: white;
+  animation: color-me-in 9s;
+}
+
+.grid-item:nth-child(6n){
+  background-color: white;
+  animation: color-me-in 11s;
+}
+
+.grid-item:nth-child(7n){
+  background-color: white;
+  animation: color-me-in 13s;
+}
+
+.grid-item:nth-child(8n){
+  background-color: white;
+  animation: color-me-in 15s;
+}
+
+.grid-item:nth-child(9n){
+  background-color: white;
+  animation: color-me-in 17s;
+}
+
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    background: white;
+  }
+  /* You could think of as "step 2" */
+  100% {
+    background: black;
+  }
+}
+
+#x26{
+height: 3vh;
+}
+
+#x25{
+height: 4.1vh;
+}
+
+#x24{
+height: 2.5vh;
+}
+
+#x23{
+height: 3.5vh;
+}
+
+#x22{
+height: 5.6vh;
+}
+
+#x21{
+height: 3.5vh;
+}
+
+#x20{
+height: 6.1vh;
+}
+
+#x19{
+height: 2.2vh;
+}
+
+#x18{
+height: 5.3vh;
+}
+
+#x17{
+height: 3.8vh;
+}
+
+#x16{
+height: 4.3vh;
+}
+
+#x15{
+height: 3.3vh;
+}
+
+#x14{
+height: 5.6vh;
+}
+
+#x13{
+height: 5.6vh;
+}
+
+#x12{
+height: 1.4vh;
+}
+
+#x11{
+height: 2.7vh;
+}
+
+#x10{
+height: 2.3vh;
+}
+
+#x9{
+height: 5.2vh;
+}
+
+#x8{
+height: 5.7vh;
+}
+
+#x7{
+height: 2.6vh;
+}
+
+#x6{
+height: 1.5vh;
+}
+
+#x5{
+height: 3.6vh;
+}
+
+#x4{
+height: 2.3vh;
+}
+
+#x3{
+height: 2.8vh;
+}
+
+#x2{
+height: 5.4vh;
+}
+
+#x1{
+height: 3.6vh;
+}
